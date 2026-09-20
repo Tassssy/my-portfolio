@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+dist/
+.sites-runtime/
+*.log
+tmp/
+素材/
+.env
+.env.*
+!.env.example
+*.zip
