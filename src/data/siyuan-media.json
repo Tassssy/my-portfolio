@@ -1,0 +1,184 @@
+{
+  "school-group": {
+    "src": "/media/siyuan/school-group.jpg",
+    "original": "/media/siyuan/school-group.jpg",
+    "width": 5568,
+    "height": 3712,
+    "source": "素材\\思源公益\\校门口的合照.jpg"
+  },
+  "arrival": {
+    "src": "/media/siyuan/arrival.jpg",
+    "original": "/media/siyuan/arrival.jpg",
+    "width": 2774,
+    "height": 1849,
+    "source": "素材\\思源公益\\刚到庆阳合照.jpg"
+  },
+  "mountain-group": {
+    "src": "/media/siyuan/mountain-group.jpeg",
+    "original": "/media/siyuan/mountain-group.jpeg",
+    "width": 2841,
+    "height": 1894,
+    "source": "素材\\思源公益\\爬山合照.jpeg"
+  },
+  "teacher": {
+    "src": "/media/siyuan/teacher.jpg",
+    "original": "/media/siyuan/teacher.jpg",
+    "width": 5568,
+    "height": 3712,
+    "source": "素材\\思源公益\\听老师讲解.jpg"
+  },
+  "cave-group": {
+    "src": "/media/siyuan/cave-group.jpg",
+    "original": "/media/siyuan/cave-group.jpg",
+    "width": 5277,
+    "height": 3657,
+    "source": "素材\\思源公益\\调查窑洞合照.jpg"
+  },
+  "cave-walk": {
+    "src": "/media/siyuan/cave-walk.jpeg",
+    "original": "/media/siyuan/cave-walk.jpeg",
+    "width": 2976,
+    "height": 1984,
+    "source": "素材\\思源公益\\调查窑洞.jpeg"
+  },
+  "heritage": {
+    "src": "/media/siyuan/heritage.jpeg",
+    "original": "/media/siyuan/heritage.jpeg",
+    "width": 5568,
+    "height": 3712,
+    "source": "素材\\思源公益\\红色实践合照1.jpeg"
+  },
+  "food": {
+    "src": "/media/siyuan/food.jpeg",
+    "original": "/media/siyuan/food.jpeg",
+    "width": 3712,
+    "height": 5568,
+    "source": "素材\\思源公益\\调查十三花.jpeg"
+  },
+  "music": {
+    "src": "/media/siyuan/music.jpg",
+    "original": "/media/siyuan/music.jpg",
+    "width": 2976,
+    "height": 1984,
+    "source": "素材\\思源公益\\给孩子们讲解二胡.jpg"
+  },
+  "introduction": {
+    "src": "/media/siyuan/introduction.jpg",
+    "original": "/media/siyuan/introduction.jpg",
+    "width": 2976,
+    "height": 1984,
+    "source": "素材\\思源公益\\给孩子们介绍我自己.jpg"
+  },
+  "beads": {
+    "src": "/media/siyuan/beads.jpg",
+    "original": "/media/siyuan/beads.jpg",
+    "width": 4000,
+    "height": 3000,
+    "source": "素材\\思源公益\\孩子们照片7.jpg"
+  },
+  "bubbles": {
+    "src": "/media/siyuan/bubbles.jpg",
+    "original": "/media/siyuan/bubbles.jpg",
+    "width": 1620,
+    "height": 1080,
+    "source": "素材\\思源公益\\孩子们照片10.jpg"
+  },
+  "gifts": {
+    "src": "/media/siyuan/gifts.jpg",
+    "original": "/media/siyuan/gifts.jpg",
+    "width": 4032,
+    "height": 3024,
+    "source": "素材\\思源公益\\孩子们送的扭扭棒礼物.jpg"
+  },
+  "sunrise": {
+    "src": "/media/siyuan/sunrise.jpg",
+    "original": "/media/siyuan/sunrise.jpg",
+    "width": 2976,
+    "height": 1984,
+    "source": "素材\\思源公益\\看日出合照.jpg"
+  },
+  "post-01": {
+    "src": "/media/siyuan/post-01.png",
+    "original": "/media/siyuan/post-01.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推1.png"
+  },
+  "post-02": {
+    "src": "/media/siyuan/post-02.png",
+    "original": "/media/siyuan/post-02.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推2.png"
+  },
+  "post-03": {
+    "src": "/media/siyuan/post-03.png",
+    "original": "/media/siyuan/post-03.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推3-2.png"
+  },
+  "post-04": {
+    "src": "/media/siyuan/post-04.png",
+    "original": "/media/siyuan/post-04.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推4.png"
+  },
+  "post-05": {
+    "src": "/media/siyuan/post-05.png",
+    "original": "/media/siyuan/post-05.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推5.png"
+  },
+  "post-06": {
+    "src": "/media/siyuan/post-06.png",
+    "original": "/media/siyuan/post-06.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推6.png"
+  },
+  "post-07": {
+    "src": "/media/siyuan/post-07.png",
+    "original": "/media/siyuan/post-07.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推7.png"
+  },
+  "post-08": {
+    "src": "/media/siyuan/post-08.png",
+    "original": "/media/siyuan/post-08.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推8-2.png"
+  },
+  "post-09": {
+    "src": "/media/siyuan/post-09.png",
+    "original": "/media/siyuan/post-09.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推9-2.png"
+  },
+  "post-10": {
+    "src": "/media/siyuan/post-10.png",
+    "original": "/media/siyuan/post-10.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推10.png"
+  },
+  "post-11": {
+    "src": "/media/siyuan/post-11.png",
+    "original": "/media/siyuan/post-11.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推11-2.png"
+  },
+  "post-12": {
+    "src": "/media/siyuan/post-12.png",
+    "original": "/media/siyuan/post-12.png",
+    "width": 1080,
+    "height": 3500,
+    "source": "素材\\思源公益\\推12-2.png"
+  }
+}

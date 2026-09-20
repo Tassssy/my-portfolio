@@ -1,0 +1,19 @@
+{
+  "name": "zhou-tianyi-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/restore-large-media.mjs && vite --host 127.0.0.1 --port 3000 --strictPort",
+    "build": "node scripts/restore-large-media.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 3000 --strictPort"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "@vitejs/plugin-react": "^5.0.0"
+  }
+}

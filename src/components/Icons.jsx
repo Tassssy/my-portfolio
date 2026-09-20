@@ -1,0 +1,2 @@
+export const Arrow = ({ diagonal = false, ...props }) => <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" {...props}>{diagonal ? <path d="M5 19 19 5M5 5h14v14"/> : <path d="M4 12h16m-6-6 6 6-6 6"/>}</svg>;
+export const Star = ({ className = '' }) => <svg className={className} viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="m50 0 9 32 26-17-17 26 32 9-32 9 17 26-26-17-9 32-9-32-26 17 17-26L0 50l32-9-17-26 26 17Z"/></svg>;

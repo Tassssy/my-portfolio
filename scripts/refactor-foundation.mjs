@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+fs.mkdirSync('tmp/before-upgrade',{recursive:true});
+for(const file of ['main.jsx','styles.css'])fs.copyFileSync(`src/${file}`,`tmp/before-upgrade/${file}`);
+fs.mkdirSync('src/data',{recursive:true});fs.mkdirSync('src/components',{recursive:true});
+const source=fs.readFileSync('src/main.jsx','utf8');
+const data=source.slice(source.indexOf('const projects = ['),source.indexOf('\nfunction ProjectArt'));
+fs.writeFileSync('src/data/base-projects.js',data.replace('const projects =','export const baseProjects ='));
+const icons=source.slice(source.indexOf('const Arrow ='),source.indexOf('\nconst projects ='));
+fs.writeFileSync('src/components/Icons.jsx',icons.replace('const Arrow =','export const Arrow =').replace('const Star =','export const Star ='));
+let art=source.slice(source.indexOf('function ProjectArt'),source.indexOf('\nfunction App'));
+art=art.replace('function ProjectArt','export function ProjectArt').replace('projects.indexOf(project)+1','project.number');
+art=art.replace('    <span className="art-bottom">','    {project.cover && <div className="cover-evidence"><img src={project.cover.src} alt="" loading="lazy" decoding="async" style={{objectPosition:project.cover.position}}/><span className="cover-evidence-label">{project.cover.label || "真实项目记录"} <Arrow diagonal/></span></div>}\n    <span className="art-bottom">');
+fs.writeFileSync('src/components/ProjectArt.jsx',"import { Arrow, Star } from './Icons';\n"+art);
+let css=fs.readFileSync('src/styles.css','utf8');
+const map={'#f5f4ec':'#f3f0e7','#252720':'#24211f','#d5f660':'#e63426','#748842':'#c53227','#71883b':'#e63426','#7b8f48':'#e63426','#404934':'#8f1d18','#dceab8':'#e8ddd0','#dd7955':'#ed5a40','#c5b9dd':'#a6282d','#bbd6db':'#d8d5c9','#e6beb8':'#f4a68e','#e9ebdf':'#e9e3d8','#d0c5ed':'#8f1d18'};
+for(const [from,to] of Object.entries(map))css=css.replaceAll(from,to);
+fs.writeFileSync('src/styles.css',css);
+fs.writeFileSync('public/favicon.svg',fs.readFileSync('public/favicon.svg','utf8').replace('#d5f660','#e63426').replace('#252720','#f3f0e7'));

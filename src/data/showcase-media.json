@@ -1,0 +1,80 @@
+{
+  "ai-foundations": {
+    "src": "/media/showcase/ai-foundations.png",
+    "width": 1824,
+    "height": 2581,
+    "source": "素材\\个人信息\\人工智能通识课.png"
+  },
+  "ai-crossdisciplinary": {
+    "src": "/media/showcase/ai-crossdisciplinary.png",
+    "width": 1824,
+    "height": 2581,
+    "source": "素材\\个人信息\\人工智能+x特色交叉课.png"
+  },
+  "ai-models": {
+    "src": "/media/showcase/ai-models.png",
+    "width": 1824,
+    "height": 2581,
+    "source": "素材\\个人信息\\国产大模型应用实战课.png"
+  },
+  "leeco-cover": {
+    "src": "/media/showcase/leeco-cover.jpg",
+    "width": 1920,
+    "height": 1080,
+    "source": "素材\\非设计类课程作业视频\\LeEco Future Outlook pro2-封面.jpg"
+  },
+  "jiaotong-cover": {
+    "src": "/media/showcase/jiaotong-cover.jpg",
+    "width": 2560,
+    "height": 1440,
+    "source": "素材\\非设计类课程作业视频\\《交·通》-封面.jpg"
+  },
+  "qrui-cover": {
+    "src": "/media/showcase/qrui-cover.png",
+    "width": 1864,
+    "height": 930,
+    "source": "素材\\实习项目\\Q睿封面.png"
+  },
+  "market-slide-1": {
+    "src": "/media/showcase/market-slide-1.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片1.JPG"
+  },
+  "market-slide-3": {
+    "src": "/media/showcase/market-slide-3.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片3.JPG"
+  },
+  "market-slide-4": {
+    "src": "/media/showcase/market-slide-4.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片4.JPG"
+  },
+  "market-slide-5": {
+    "src": "/media/showcase/market-slide-5.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片5.JPG"
+  },
+  "market-slide-6": {
+    "src": "/media/showcase/market-slide-6.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片6.JPG"
+  },
+  "market-slide-7": {
+    "src": "/media/showcase/market-slide-7.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片7.JPG"
+  },
+  "market-slide-8": {
+    "src": "/media/showcase/market-slide-8.jpg",
+    "width": 1280,
+    "height": 720,
+    "source": "素材\\实习项目\\幻灯片8.JPG"
+  }
+}

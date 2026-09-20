@@ -1,0 +1,22 @@
+{
+  "output": "public/media/jiaotong.mp4",
+  "bytes": 92261564,
+  "sha256": "56ae1cce213eb8808e2bedab09339df3d9ac7ce8fff31217cecd87166889f8fb",
+  "parts": [
+    {
+      "name": "jiaotong.mp4.part1",
+      "bytes": 33554432,
+      "sha256": "26af5f8f436f6e926967fe66137fbe2f735c1d56a6ef6040cdfe1bffd36dfa72"
+    },
+    {
+      "name": "jiaotong.mp4.part2",
+      "bytes": 33554432,
+      "sha256": "246d5f6330efdce86f3ca1d19a88e49986b7eea83a42c707adaf589563636870"
+    },
+    {
+      "name": "jiaotong.mp4.part3",
+      "bytes": 25152700,
+      "sha256": "890e757da3f2e146ed63c68138d67be68a4add3731d07fd157ef2e53705e9aa9"
+    }
+  ]
+}
