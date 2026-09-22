@@ -10,5 +10,4 @@ tmp/
 !.env.example
 *.zip
 
-/public/media/jiaotong.mp4
 *.restoring

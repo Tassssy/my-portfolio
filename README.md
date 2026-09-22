@@ -58,4 +58,10 @@ pnpm build
 
 推送到 main 后由 GitHub Actions 自动构建并部署，Pages Source 使用 GitHub Actions。相对资源路径兼容仓库子目录与本地预览。素材、临时文件及依赖目录不会提交。
 
-最大的课程视频无损分为 large-media 中的三个文件。dev 与 build 会自动校验 SHA-256 并还原完整 MP4，画质和时长不变，不依赖 Git LFS。
+网页直接使用 public/media 中已提交的最新视频。large-media 保留旧版大视频的分片备份；日常 dev 和 build 不再自动覆盖当前视频。
+
+## 交互标识约定
+
+箭头只用于真实链接、按钮和浏览控件，加号只用于可展开的内容。静态标题、职责、奖项和成果使用圆点、序号或内容图标；视频播放符号仅用于播放按钮。
+
+当前发布渠道为 GitHub Pages。修改完成后提交并推送 main，GitHub Actions 构建成功后更新线上站点。若 Cloudflare 控制台仍绑定本仓库，需要在那里断开 Git 连接或关闭自动构建；删除仓库内的配置不会自动解除外部服务绑定。
