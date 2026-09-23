@@ -1,6 +1,7 @@
-import assets from './showcase-media.json';
+import { showcaseImage } from './showcase-image';
+export { showcaseImage } from './showcase-image';
 
-export const showcaseImage = (name, alt, caption) => ({ ...assets[name], alt, caption, original:assets[name].src });
+
 export const aiCertificates = [
   showcaseImage('ai-foundations','人工智能通识课课程修读证明','01 / 人工智能通识课 · 课程修读证明'),
   showcaseImage('ai-crossdisciplinary','人工智能加 X 特色交叉课课程修读证明','02 / 人工智能 + X 特色交叉课 · 课程修读证明'),

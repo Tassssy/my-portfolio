@@ -1,6 +1,6 @@
 import { assetUrl } from '../asset-url';
 import { useEffect, useRef, useState } from 'react';
-import { personal } from '../data/projects';
+import { personal } from '../data/personal';
 import { ResponsiveImage } from './Media';
 
 export function LifeGallery() {

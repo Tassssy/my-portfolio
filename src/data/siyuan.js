@@ -1,6 +1,7 @@
 import assets from './siyuan-media.json';
 
-export const siyuanPhoto = (key, title, caption, story = '', source = '') => ({...assets[key], key, alt:title, title, caption, story, source});
+import { siyuanPhoto } from './siyuan-assets';
+export { siyuanPhoto } from './siyuan-assets';
 export const siyuanGroups = [
   siyuanPhoto('school-group','在三岔小学门口，留下我们的夏天','三岔小学 · 夏令营团队合照'),
   siyuanPhoto('arrival','抵达庆阳，一段共同生活的开始','抵达庆阳 · 出发时的我们'),
