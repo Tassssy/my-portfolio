@@ -1,4 +1,4 @@
-import { experience } from '../data/projects';
+import { experiencePreview as experience } from '../data/experience-preview';
 import { Arrow, Briefcase } from './Icons';
 import { ResponsiveImage } from './Media';
 
