@@ -9,6 +9,7 @@ import { CaseFeedback, CaseBoundary } from './components/CaseFeedback';
 const LazyCaseStudy = lazy(() => import('./components/LazyCaseStudy'));
 import { Experience } from './components/Experience';
 import { About } from './components/About';
+import { PersonalLife } from './components/PersonalLife';
 export default function App(){
   const [filter,setFilter]=useState('全部');
   const [selected,setSelected]=useState(null);
@@ -46,7 +47,8 @@ export default function App(){
       <About/>
       <Experience onOpen={openProject}/>
       <section id="projects" className="projects wrap section"><div className="section-heading"><div><p className="section-kicker">03 / SELECTED PROJECTS</p><h2>想法，要有回响<span>。</span></h2></div><p className="section-description">从研究到表达，从策划到现场。<br/>有原始作品，也有可追溯的项目记录。</p></div><div className="project-controls"><div className="filters" aria-label="按项目类型筛选">{['全部','消费者洞察','内容传播','项目落地'].map(f=><button key={f} aria-pressed={filter===f} className={filter===f?'selected':''} onClick={()=>setFilter(f)}>{f}{f==='全部'&&<sup>05</sup>}</button>)}</div><span className="project-hint">点击项目卡片，查看完整案例</span></div><div className="project-grid">{projects.filter(p=>filter==='全部'||p.type===filter).map(p=><ProjectCard key={p.id} project={p} onOpen={openProject}/>)}</div><p className="project-footnote">FIELD NOTES / 图形封面背后，是实际完成的研究、内容与活动。</p></section>
-      <section id="contact" className="contact"><div className="wrap"><div className="contact-top"><p className="section-kicker">04 / LET’S CONNECT</p><span><i className="status-dot"/> 寻找品牌营销 / 产品营销 / 市场管培机会</span></div><h2>下一个好故事，<br/>一起<span>开始。</span><Star/></h2><div className="contact-bottom"><div><p>关于机会、创意，或一个有意思的想法。</p><a className="email" href="mailto:3654298@sjtu.edu.cn">3654298@sjtu.edu.cn <Arrow diagonal/></a></div><div className="contact-buttons"><button onClick={copy}>复制邮箱 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V4H4v11h4"/></svg></button><a href="tel:17625595135">电话联系 <Arrow diagonal/></a></div></div><footer><span>© {new Date().getFullYear()} 周天翊 · TIANYI ZHOU</span><span>用心观察，认真表达。</span><a href="#home">回到顶部 ↑</a></footer></div></section>
+      <PersonalLife/>
+      <section id="contact" className="contact"><div className="wrap"><div className="contact-top"><p className="section-kicker">05 / LET’S CONNECT</p><span><i className="status-dot"/> 寻找品牌营销 / 产品营销 / 市场管培机会</span></div><h2>下一个好故事，<br/>一起<span>开始。</span><Star/></h2><div className="contact-bottom"><div><p>关于机会、创意，或一个有意思的想法。</p><a className="email" href="mailto:3654298@sjtu.edu.cn">3654298@sjtu.edu.cn <Arrow diagonal/></a></div><div className="contact-buttons"><button onClick={copy}>复制邮箱 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V4H4v11h4"/></svg></button><a href="tel:17625595135">电话联系 <Arrow diagonal/></a></div></div><footer><span>© {new Date().getFullYear()} 周天翊 · TIANYI ZHOU</span><span>用心观察，认真表达。</span><a href="#home">回到顶部 ↑</a></footer></div></section>
     </main>
     {selected&&<CaseBoundary key={selected.id} name={selected.name} onClose={closeProject}><Suspense fallback={<CaseFeedback name={selected.name} onClose={closeProject}/>}><LazyCaseStudy projectId={selected.id} onClose={closeProject}/></Suspense></CaseBoundary>}
     <div className={`toast ${toast?'visible':''}`} role="status">{toast}</div>

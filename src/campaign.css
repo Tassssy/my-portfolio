@@ -964,3 +964,7 @@ button:disabled {cursor:default}
   .toolkit-language p>span {display:inline-flex;align-items:baseline;gap:4px;flex-wrap:wrap}
   .toolkit-language strong {font-size:18px}
 }
+
+/* The personal-life section now follows projects; keep one divider and normal spacing. */
+.personal-life {padding-top:0}
+.personal-life>.life-gallery {margin-top:0}
